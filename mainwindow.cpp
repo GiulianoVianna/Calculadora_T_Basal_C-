@@ -36,21 +36,29 @@ void MainWindow::on_bt_calcular_clicked()
 */
     if (peso == ""){
         QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setWindowTitle("Atenção");
         msgBox.setText("Favor informar o peso!");
         msgBox.exec();
     }
     else if (altura  == ""){
         QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setWindowTitle("Atenção");
         msgBox.setText("Favor informar a altura!");
         msgBox.exec();
     }
     else if (idade  == ""){
         QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setWindowTitle("Atenção");
         msgBox.setText("Favor informar a idade!");
         msgBox.exec();
     }
     else if (ind_atividade  == ""){
         QMessageBox msgBox;
+        msgBox.setIcon(QMessageBox::Critical);
+        msgBox.setWindowTitle("Atenção");
         msgBox.setText("Favor informar o nível de atividade!");
         msgBox.exec();
     }
