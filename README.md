@@ -1,4 +1,4 @@
-# Calculadora de Taxa Metabílica Basal.
+# Calculadora de Taxa Metabólica Basal - Maromba do Agreste.
 
 Aplicação Desenvolvida em C++ com QtCreator.
 
